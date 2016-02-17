@@ -9,7 +9,7 @@ var SlackClient = require("./lib/client/slack")().SlackClient;
 function usage () {
     throw new Error(
         util.format(
-            "Usage: %s --token=KEY --message='Message\n\n" +
+            "Usage: %s --token=KEY --message='Message'\n\n" +
             "Sends the provided message to the indicated channel on Slack\n",
             process.argv[1]
         )
